@@ -329,7 +329,7 @@ def intro_banner():
 """.rstrip("\n")
 
     print(f"{C.BOLD}{C.BLOOD_RED}{art}{C.RESET}")
-    subtitle = "Battar — راتّب — red-core toolkit"
+    subtitle = "Battar — بتّار — red-core toolkit"
     width = max(len(l) for l in art.split("\n"))
     pad = max(0, (width - len(subtitle)) // 2)
     print(f"{' ' * pad}{C.BOLD}{C.GRAY}{subtitle}{C.RESET}\n")
